@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4F61AACE1D8ED7F50020E945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F61AACD1D8ED7F50020E945 /* AppDelegate.swift */; };
 		4F61AAD01D8ED7F50020E945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F61AACF1D8ED7F50020E945 /* ViewController.swift */; };
-		4F61AAD31D8ED7F50020E945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F61AAD11D8ED7F50020E945 /* Main.storyboard */; };
 		4F61AAD61D8ED7F50020E945 /* CoreTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F61AAD41D8ED7F50020E945 /* CoreTable.xcdatamodeld */; };
 		4F61AAD81D8ED7F50020E945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F61AAD71D8ED7F50020E945 /* Assets.xcassets */; };
 		4F61AADB1D8ED7F50020E945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F61AAD91D8ED7F50020E945 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		4F61AACA1D8ED7F50020E945 /* CoreTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F61AACD1D8ED7F50020E945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F61AACF1D8ED7F50020E945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F61AAD21D8ED7F50020E945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F61AAD51D8ED7F50020E945 /* CoreTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreTable.xcdatamodel; sourceTree = "<group>"; };
 		4F61AAD71D8ED7F50020E945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F61AADA1D8ED7F50020E945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				4F61AACD1D8ED7F50020E945 /* AppDelegate.swift */,
 				4F61AACF1D8ED7F50020E945 /* ViewController.swift */,
-				4F61AAD11D8ED7F50020E945 /* Main.storyboard */,
 				4F61AAD71D8ED7F50020E945 /* Assets.xcassets */,
 				4F61AAD91D8ED7F50020E945 /* LaunchScreen.storyboard */,
 				4F61AADC1D8ED7F50020E945 /* Info.plist */,
@@ -99,6 +96,7 @@
 				TargetAttributes = {
 					4F61AAC91D8ED7F50020E945 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y2DM37C5XR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,7 +126,6 @@
 			files = (
 				4F61AADB1D8ED7F50020E945 /* LaunchScreen.storyboard in Resources */,
 				4F61AAD81D8ED7F50020E945 /* Assets.xcassets in Resources */,
-				4F61AAD31D8ED7F50020E945 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,14 +145,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4F61AAD11D8ED7F50020E945 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F61AAD21D8ED7F50020E945 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4F61AAD91D8ED7F50020E945 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,11 +251,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y2DM37C5XR;
 				INFOPLIST_FILE = CoreTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.miyohiki.CoreTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -274,11 +266,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y2DM37C5XR;
 				INFOPLIST_FILE = CoreTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.miyohiki.CoreTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -301,6 +296,7 @@
 				4F61AAE11D8ED7F50020E945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
