@@ -1,9 +1,10 @@
 # CoreTable
-Understanding how CoreData works in Swift 3.
 
-## Why this project?
-In Swift 3, Apple has changed a few things about Core Data. Those were well documented, but as we know, sample code of a 
-hands-on project often is better than the sample code for the concept (And often also more self-explanatory).
+## Reason For Repository
+In iOS 10, the concept of CoreData with Swift 3 has been changed by Apple. Despite the documentation, hands-on project usually are a better explanation of changes and show how to implement them in own projects.
 
-## What does this app do?
-It's basically just a task management app. List a task and remove it when it's done. Simple as that. 
+## App Example
+This example is a simple listing app in which you can add items and subsequently remove them when they are no longer needed.
+
+## Documentation of Changes
+[What's New in Core Data in macOS 10.12, iOS 10.0, tvOS 10.0, and watchOS 3.0](https://developer.apple.com/library/content/releasenotes/General/WhatNewCoreData2016/ReleaseNotes.html)
