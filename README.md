@@ -1,9 +1,9 @@
 # CoreTable
 
-## Reason For Repository
+## Background
 In iOS 10, the concept of CoreData with Swift 3 has been changed by Apple. Despite the documentation, hands-on projects are a better explanation of changes in most cases and show how to implement them in own projects.
 
-## App Example
+## Application
 This example is a simple listing app in which you can add items and subsequently remove them when they are no longer needed.
 
 ## Documentation of Changes
